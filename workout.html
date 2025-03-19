@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workout plan</title>
     <style>
+        
+
         .monday {
             display: flex;
             margin-bottom: 100px;
@@ -28,15 +30,29 @@
             height: 250px;
             object-fit: contain;
         }
-        p{
+
+        p {
             font-weight: 700;
         }
-        .line{
-            width:100vw;
-            border:1px solid rgb(75, 75, 75);
+
+        .line {
+            width: 100vw;
+            border: 1px solid rgb(75, 75, 75);
+        }
+
+        @media (max-width: 768px) {
+            .monday {
+                flex-direction: column;
+            }
+
+            .monday-item {
+                width: 100%;
+                height: auto;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
 
@@ -149,15 +165,13 @@
             </div>
             <div class="monday-item">
 
-                <img width="300px"
-                    src="https://kinxlearning.com/cdn/shop/files/exercise-32_1000x.jpg?v=1613157925"
+                <img width="300px" src="https://kinxlearning.com/cdn/shop/files/exercise-32_1000x.jpg?v=1613157925"
                     alt="">
                 <p>Lateral raises</p>
             </div>
             <div class="monday-item">
 
-                <img width="300px"
-                    src="https://weighttraining.guide/wp-content/uploads/2016/10/Face-pull-resized.png"
+                <img width="300px" src="https://weighttraining.guide/wp-content/uploads/2016/10/Face-pull-resized.png"
                     alt="">
                 <p>Cable face pulls</p>
             </div>
@@ -178,8 +192,7 @@
             <div class="monday-item">
 
                 <img width="300px"
-                    src="https://weighttraining.guide/wp-content/uploads/2018/07/Bodyweight-squat-resized.png"
-                    alt="">
+                    src="https://weighttraining.guide/wp-content/uploads/2018/07/Bodyweight-squat-resized.png" alt="">
                 <p>Squats</p>
             </div>
             <div class="monday-item">
@@ -191,13 +204,14 @@
             </div>
             <div class="monday-item">
 
-                <img width="300px" src="https://fitnessvolt.com/wp-content/uploads/2020/03/dumbbell-bulgarian-split-squat.jpg.webp" alt="">
+                <img width="300px"
+                    src="https://fitnessvolt.com/wp-content/uploads/2020/03/dumbbell-bulgarian-split-squat.jpg.webp"
+                    alt="">
                 <p>Bulgarian split squats</p>
             </div>
             <div class="monday-item">
                 <img width="200px"
-                    src="https://liftmanual.com/wp-content/uploads/2023/04/dumbbell-standing-calf-raise.jpg"
-                    alt="">
+                    src="https://liftmanual.com/wp-content/uploads/2023/04/dumbbell-standing-calf-raise.jpg" alt="">
                 <p>Calve raises</p>
 
             </div>
