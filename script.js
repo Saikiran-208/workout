@@ -32,5 +32,5 @@ function showCurrentDayPlan() {
     }
 }
 
-// Run when the page loads
+
 window.onload = showCurrentDayPlan;
